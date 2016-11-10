@@ -1,0 +1,15 @@
+$warna : #3498db;
+$padding : 10px;
+
+a {
+    background: $warna;
+    padding:10px;
+    width: 200px;
+    text-align: center;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    background: darken($warna, 5%);
+}

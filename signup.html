@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pinguin - Silakan registrasi akun baru di sini</title>
+
+    <!-- CSS Bootstrap -->
+      
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/datepicker.css" rel="stylesheet">
+
+    <!-- buat favicon -->
+    <!-- buat favicon -->
+<link rel="shortcut icon" href="img/favicon-pinguin.ico" >
+<link rel="icon" type="/image/ico"  href="img/favicon-pinguin.ico" >
+    <!-- end -->
+    <!-- end -->
+    
+    <script src="js/jquery.js"></script>        
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+      
+<script>
+
+</script>
+      
+    <!-- Hiasan warna-warna paling atas -->
+      
+      <div class="top-color">
+      <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+      
+    <!-- Navigasi atas -->  
+        
+      </div>
+      
+      <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+      
+    <!-- Brand and toggle get grouped for better mobile display -->
+      
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Pinguin</a>
+    </div>
+
+    <!-- Membuat link-link berubah dari float-left menjadi vertikal teratur -->
+      
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="forum.html">Forum</a></li>
+        <li><a href="#">Belajar</a></li>
+        <li><a href="download.html">Download</a></li>
+        <li><a href="#">Kontak</a></li>
+        <li><form class="search-container" action="#" method="POST"><input type="search" class="form-control search" placeholder="Cari..." >
+            <input type="submit" class="btn btn-search" value="Cari">
+            </form>
+        </li>
+          </ul>
+    </div>  <!-- /.navbar-collapse -->
+  </div>  <!-- /.container-fluid -->
+</nav>
+
+<!-- Form Sign up -->
+
+<form action="#" method="POST" class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 form-login center-modul signup-modul">
+    <div class=alert><a class="close" data-dismiss="alert" href="#" aria-hidden="true">&times;</a>
+    <h4 class="alert-notif">Ups, ada yang eror!</h4>
+    <p class=suggest>Cobalah mengecek kembali username yang anda masukkan.</p></div>
+    <input type="text" name="real-name" placeholder="Nama asli" data-toggle="tooltip" data-original-title="Nama asli" data-placement="right">
+    <div class="input-append date" id="dp3" data-date="01-01-2014" data-date-format="dd-mm-yyyy">
+  <input id="tanggal" size="16" type="text" placeholder="Tanggal lahir">
+</div>
+    <input type="text" name="username" placeholder="Username" data-toggle="tooltip" data-original-title="Username" data-placement="right">
+    <input type="password" name="password" placeholder="Password" data-toggle="tooltip" data-original-title="Password" data-placement="right">
+    <input type="password" name="confirm-password" placeholder="Konfirmasi Password" data-toggle="tooltip" data-original-title="Konfirmasi" data-placement="right">
+        <input type="submit" class="login" name="submit" value="Register">
+    <a href="login.html" class="pull-left forget">Mau login?</a>
+    <input type="reset" class="pull-right">
+
+      
+</form>
+      
+<script src="js/bootstrap-datepicker.js"></script>
+      
+ <script type="text/javascript">
+
+            $(document).ready(function () {
+                
+                $('#tanggal').datepicker({
+                    format: "dd/mm/yyyy"
+                }); 
+            
+            });
+     
+        $(document).ready(function(){
+        $("input").tooltip();
+        });
+     
+        </script>
+<script src="js/prefixfree.min.js"></script>
+       
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+      
+</body>
+</html>

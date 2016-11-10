@@ -1,0 +1,17 @@
+PINGUIN
+===============
+developed by SM 2013.
+
+DESAIN :
+
+1. Desain website menggunakan framework bootstrap 3. http://getbootstrap.com
+2. Untuk mengatasi perbedaan vendor prefix, pinguin menggunakan prefix-free oleh lea vearou.
+3. Logo original by SM.
+4. Desain responsive dengan media queries.
+5. Menggunakan transition CSS3, glyphicon, dan warna flat yang trend saat ini.
+6. Warna flat. http://flatuicolors.com
+7. Datepicker menggunakan bootstrap datepicker. http://www.eyecon.ro/bootstrap-datepicker/
+
+PROGRAMMING : 
+
+- balapa
